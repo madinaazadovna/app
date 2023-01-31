@@ -2,33 +2,33 @@
 x = 1
 y = 2.8
 z = 1j
-print(type(x))  # <class 'int'>
-print(type(y))  # <class 'float'>
-print(type(z))  # <class 'complex'>
+print(type(x))  
+print(type(y)) 
+print(type(z))  
 
 # Numbers type INT
 x = 1
 y = 35656222554887711
 z = -3255522
-print(type(x))  # <class 'int'>
-print(type(y))  # <class 'int'>
-print(type(z))  # <class 'int'>
+print(type(x))  
+print(type(y))  
+print(type(z))  
 
 # Numbers type INT
 x = 1
 y = 35656222554887711
 z = -3255522
-print(type(x))  # <class 'int'>
-print(type(y))  # <class 'int'>
-print(type(z))  # <class 'int'>
+print(type(x))  
+print(type(y))  
+print(type(z))  
 
 # Numbers type float
 x = 1.10
 y = 1.0
 z = -35.59
-print(type(x)) # <class 'float'>
-print(type(y)) # <class 'float'>
-print(type(z)) # <class 'float'>
+print(type(x)) 
+print(type(y)) 
+print(type(z)) 
 
 #Floats:
 x = 35e3
@@ -42,9 +42,9 @@ print(type(z))
 x = 3+5j
 y = 5j
 z = -5j
-print(type(x)) # <class 'complex'>
-print(type(y)) # <class 'complex'>
-print(type(z)) # <class 'complex'>
+print(type(x)) 
+print(type(y)) 
+print(type(z)) 
 
 #Type Conversion
 #convert from int to float:
