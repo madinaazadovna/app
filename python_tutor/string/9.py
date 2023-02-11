@@ -1,2 +1,3 @@
 #Задача «Замена подстроки»
-print(input().replace("1","one"))
+s = input()
+print(s.replace("1", "one"))
