@@ -1,3 +1,3 @@
-#Create a function named my_function.
+#Ex1
 def my_function():
     print("Hello from a function")
