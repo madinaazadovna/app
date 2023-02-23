@@ -65,4 +65,3 @@ myclass = Mynumbers()
 myiter = iter(myclass)
 for x in myiter:
     print(x)
-
