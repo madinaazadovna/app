@@ -81,6 +81,89 @@ import datetime
 x = datetime.datetime.now()
 print(x.strftime("%p")) #answer: pm
 
+#Minute 00-59
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%M")) #answer: 18
+
+#Second 00-59
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%S")) #answer: 11
+
+#Microsecond 000000-999999
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%f")) #answer: 952187
+
+#Day number of year 001-366
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%j")) #answer: 55
+
+#Week number of year, Sunday as the first day of week, 00-53
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%U")) #answer: 21
+
+#Week number of year, Monday as the first day of week, 00-53
+import datetime
+x = datetime.datetime(2018, 5, 31)
+print(x.strftime("%W")) #answer: 22
+
+#Local version of date and time
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%c")) #answer: Fri Feb 24 14:22:05 2023
+
+#Century
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%C")) #answer: 20
+
+#Local version of date
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%x")) #answer: 02/24/23
+
+#Local version of time
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%X")) #answer: 14:25:16
+
+#A % character
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%%")) #answer: %
+
+#ISO 8601 year
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%G")) #answer: 2023
+
+#ISO 8601 weekday (1-7)
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%u")) #answer: 5
+
+#ISO 8601 weeknumber (01-53)
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%V")) #answer: 08
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
